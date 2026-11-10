@@ -1,0 +1,68 @@
+{
+    "links":[
+        {
+            "type":"application/json",
+            "rel":"self",
+            "title":"This document as JSON",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles?f=json"
+        },
+        {
+            "type":"application/ld+json",
+            "rel":"alternate",
+            "title":"This document as RDF (JSON-LD)",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles?f=jsonld"
+        },
+        {
+            "type":"text/html",
+            "rel":"alternate",
+            "title":"This document as HTML",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles?f=html"
+        },
+        {
+            "type":"application/json",
+            "rel":"self",
+            "title":"This collection as multi vector tilesets",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/{tileMatrixSetId}?f=json"
+        },
+        {
+            "type":"application/vnd.mapbox-vector-tile",
+            "rel":"item",
+            "title":"This collection as multi vector tiles",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/{tileMatrixSetId}/{tileMatrix}/{tileRow}/{tileCol}?f=pbf"
+        },
+        {
+            "type":"application/json",
+            "rel":"describedby",
+            "title":"Collection metadata in TileJSON format",
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/{tileMatrixSetId}/metadata?f=json"
+        }
+    ],
+    "tilesets":[
+        {
+            "title":"lakes",
+            "tileMatrixSetURI":"http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad",
+            "crs":"http://www.opengis.net/def/crs/EPSG/0/3857",
+            "dataType":"vector",
+            "links":[
+                {
+                    "type":"application/json",
+                    "rel":"http://www.opengis.net/def/rel/ogc/1.0/tiling-scheme",
+                    "title":"TileMatrixSet definition in JSON",
+                    "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WebMercatorQuad?f=json"
+                },
+                {
+                    "type":"application/json",
+                    "rel":"self",
+                    "title":"lakes - WebMercatorQuad - json",
+                    "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/WebMercatorQuad?f=json"
+                },
+                {
+                    "type":"text/html",
+                    "rel":"alternate",
+                    "title":"lakes - WebMercatorQuad - html",
+                    "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/WebMercatorQuad?f=html"
+                }
+            ]
+        }
+    ]
+}

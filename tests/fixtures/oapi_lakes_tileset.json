@@ -1,0 +1,22 @@
+{
+    "title":"Large Lakes",
+    "description":"lakes of the world, public domain",
+    "accessConstraints":"unclassified",
+    "dataType":"vector",
+    "crs":"http://www.opengis.net/def/crs/EPSG/0/3857",
+    "tileMatrixSetURI":"http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad",
+    "links":[
+        {
+            "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WebMercatorQuad",
+            "rel":"http://www.opengis.net/def/rel/ogc/1.0/tiling-scheme",
+            "type":"application/json",
+            "title":"WebMercatorQuad tile matrix set definition"
+        },
+        {
+            "href":"https://demo.pygeoapi.io/master/collections/lakes/tiles/WebMercatorQuad/{tileMatrix}/{tileRow}/{tileCol}?f=mvt",
+            "rel":"item",
+            "type":"application/vnd.mapbox-vector-tile",
+            "title":"WebMercatorQuad vector tiles for ne_110m_lakes"
+        }
+    ]
+}

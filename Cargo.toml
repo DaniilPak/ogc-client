@@ -1,0 +1,37 @@
+[package]
+name = "ogc-client"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+authors = ["DaniilPak"]
+description = "Client for OGC web services: WMS, WMTS, WFS, CSW and OGC API Features/Records/Tiles. Typed capabilities, request builders, axis-order handling. Inspired by Python's OWSLib."
+license = "(MIT OR Apache-2.0) AND BSD-3-Clause"
+repository = "https://github.com/DaniilPak/ogc-client"
+documentation = "https://docs.rs/ogc-client"
+readme = "README.md"
+keywords = ["ogc", "wms", "wfs", "gis", "owslib"]
+categories = ["science::geo", "web-programming::http-client", "parser-implementations"]
+exclude = ["/.github", "/tests/fixtures"]
+
+[features]
+default = []
+# Synchronous wrappers around the async clients (runs a private tokio runtime).
+blocking = ["dep:tokio"]
+
+[dependencies]
+bytes = "1.12"
+geo-types = { version = "0.7.20", features = ["serde"] }
+geojson = "1.0.0"
+quick-xml = "0.42.0"
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls", "http2"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+thiserror = "2.0.21"
+tokio = { version = "1.54", features = ["rt"], optional = true }
+url = { version = "2.5.8", features = ["serde"] }
+
+[dev-dependencies]
+tokio = { version = "1.54", features = ["macros", "rt-multi-thread", "net", "io-util"] }
+
+[package.metadata.docs.rs]
+all-features = true

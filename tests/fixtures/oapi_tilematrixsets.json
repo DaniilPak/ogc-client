@@ -1,0 +1,56 @@
+{
+    "tileMatrixSets":[
+        {
+            "title":"CRS84 for the World",
+            "id":"WorldCRS84Quad",
+            "uri":"http://www.opengis.net/def/tilematrixset/OGC/1.0/WorldCRS84Quad",
+            "links":[
+                {
+                    "rel":"self",
+                    "type":"text/html",
+                    "title":"The HTML representation of the WorldCRS84Quad tile matrix set",
+                    "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WorldCRS84Quad?f=html"
+                },
+                {
+                    "rel":"self",
+                    "type":"application/json",
+                    "title":"The JSON representation of the WorldCRS84Quad tile matrix set",
+                    "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WorldCRS84Quad?f=json"
+                }
+            ]
+        },
+        {
+            "title":"Google Maps Compatible for the World",
+            "id":"WebMercatorQuad",
+            "uri":"http://www.opengis.net/def/tilematrixset/OGC/1.0/WebMercatorQuad",
+            "links":[
+                {
+                    "rel":"self",
+                    "type":"text/html",
+                    "title":"The HTML representation of the WebMercatorQuad tile matrix set",
+                    "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WebMercatorQuad?f=html"
+                },
+                {
+                    "rel":"self",
+                    "type":"application/json",
+                    "title":"The JSON representation of the WebMercatorQuad tile matrix set",
+                    "href":"https://demo.pygeoapi.io/master/TileMatrixSets/WebMercatorQuad?f=json"
+                }
+            ]
+        }
+    ],
+    "links":[
+        {
+            "rel":"alternate",
+            "type":"text/html",
+            "title":"This document as HTML",
+            "href":"https://demo.pygeoapi.io/master/tileMatrixSets?f=html"
+        },
+        {
+            "rel":"self",
+            "type":"application/json",
+            "title":"This document as JSON",
+            "href":"https://demo.pygeoapi.io/master/tileMatrixSets?f=json"
+        }
+    ]
+}

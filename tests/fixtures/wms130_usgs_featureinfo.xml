@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FeatureInfoResponse xmlns="http://www.esri.com/wms" xmlns:esri_wms="http://www.esri.com/wms">
+	<FIELDS RGB.Red="224" RGB.Green="234" RGB.Blue="210" RGB.Alpha="255"/>
+</FeatureInfoResponse>
